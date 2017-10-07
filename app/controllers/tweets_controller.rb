@@ -57,6 +57,6 @@ class TweetsController < ApplicationController
    end
    
    def set_all_tweets
-     @tweets = Tweet.all
+     @tweets = Tweet.all.reverse
    end
 end
