@@ -1,6 +1,6 @@
 class TweetsController < ApplicationController
   before_action :set_tweet, only:[:edit, :update, :destroy]
-  before_action :set_all_tweets, only:[:index, :new, :create]
+  before_action :set_all_tweets, only:[:index, :new, :create, :confirm]
 
   def index
   end
